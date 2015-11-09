@@ -6,6 +6,16 @@
     <title>HTML Email Base</title>
     <meta name="viewport" content="width=device-width" />
     <style>
+    @media screen and (min-width: 321px) and (max-width: 375px) {
+      .email-title {
+        font-size: 42px !important;
+        line-height: 42px !important;
+      }
+      .email-slogan {
+        font-size: 15px !important;
+        line-height: 15px !important;
+      }
+    }
     @media screen and (max-width: 600px) {
      .width-full {
       width: 100% !important;
@@ -19,7 +29,8 @@
       padding-top: 20px !important;
      }
     }
-         </style>
+    
+    </style>
   </head>
 
   <body style="margin: 0; padding: 0;">
@@ -42,21 +53,21 @@
         </td>
       </tr>
       <tr>
-        <td style="color: #FFED3E; 
+        <td class="email-title" style="color: #FFED3E; 
                font-family: 'Arial Black, 'GillSans-Bold, 'Arial Bold', Arial, sans-serif; 
                font-size: 74px;
                line-height: 74px;
                padding: 5px 0 10px 0; 
-               text-transform: uppercase;">soccer</td>
+               text-transform: uppercase;" class="email-title">soccer</td>
       </tr>
       <tr>
-        <td style="background: #403B0F; 
+        <td class="email-slogan" style="background: #403B0F; 
               color: #FFED3E; 
               font-family: 'Arial Black, 'GillSans-Bold, 'Arial Bold', Arial, sans-serif; 
               font-size: 26px; 
               line-height: 26px; 
               padding: 10px 0; 
-              text-transform: uppercase;">Because Soccer Does Matter</td>
+              text-transform: uppercase;" class="email-slogan">Because Soccer Does Matter</td>
       </tr>
     </table>
     <table align="center"
@@ -81,10 +92,10 @@
       <tr>
         <td class="stack-column" style="padding-right: 10px;">
           <table bgcolor="#5B3885"
-                 style="..."
+                 style="margin: 0;"
                  width="290">
             <tr>
-              <td><img src="" alt="ornamentation"
+              <td><img src="http://i.imgur.com/YBK5Ine.jpg" alt="ornamentation"
                        height="15"
                        src="http://i.imgur.com/YBK5Ine.jpg"
                        style="display: block;"
@@ -109,7 +120,7 @@
                          </td>
             </tr>
             <tr>
-              <td><img src="" alt="ornamentation"
+              <td><img src="http://i.imgur.com/YBK5Ine.jpg" alt="ornamentation"
                        height="15"
                        src="http://i.imgur.com/YBK5Ine.jpg"
                        style="display: block;"
@@ -119,7 +130,7 @@
         </td>
         <td class="stack-column stack-column-two" style="padding-left: 10px;">
           <table bgcolor="#0089B4"
-                 style="..."
+                 style="margin: 0;"
                  width="290">
             <tr>
               <td><img src="http://i.imgur.com/YBK5Ine.jpg" alt="ornamentation"
@@ -198,31 +209,3 @@
   </body>
 
 </html>
-
-<!-- <div style="background-color: #403B0F; 
-            background-image: url('http://i.imgur.com/UbTE3QM.png');">
-            <div style="margin: 0 auto; 
-            max-width: 600px; 
-            text-align: center">
-              <img src="http://www.royalsocceracademy.com/images/soccer-legends.jpg" style="background-color: #7F761F; 
-              display: block; 
-              max-width: 100%; 
-              padding: 12px 0;" width="600" alt="sample image" /><img src="http://www.royalsocceracademy.com/images/soccer-legends.jpg" style="background-color: #7F761F; 
-              display: block; 
-              max-width: 100%; 
-              padding: 12px 0;" width="600" alt="sample image" />
-              <h1 style="color: #FFED3E; 
-               font-family: 'Arial Black'; 
-               font-size: 74px; 
-               margin: 0; 
-               text-transform: uppercase;"></h1>
-              <p style="background: #403B0F; 
-              color: #FFED3E; 
-              font-family: 'Arial Black'; 
-              font-size: 26px; 
-              line-height: 26px; 
-              margin: 0; 
-              padding: 10px 0; 
-              text-transform: uppercase;"></p>
-            </div>
-          </div> -->
